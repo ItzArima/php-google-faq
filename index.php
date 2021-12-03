@@ -58,11 +58,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1 class="title">Privacy e Termini</h1>
+        <div class="title-container">
+            <img src="https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg" alt="">
+            <h2>Privacy e Termini</h2>
+        </div>    
         <nav>
             <a href="#">Introduzione</a>
             <a href="#">Norme sulla privacy</a>
@@ -83,5 +89,23 @@
             }
         ?> 
     </main>
+    <footer>
+        <div class="footer-centered">
+            <div class="left">
+                <a class="dot" href="#">Google</a>
+                <a class="dot" href="#">Tutto su Google</a>
+                <a class="dot" href="#">Privacy</a>
+                <a href="#">Termini</a>
+            </div>
+            <div class="right">
+                <img src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAMAAAAMs7fIAAAABGdBTUEAALGPC/xhBQAAAFpQTFRFAAAAc8b%2BeNj%2BeLL7lt3/YbL4cs/9rNn8p9b7%2Bfn5hdD/a8D/7vD/vOL9itf%2B////3PD%2Byuj9R6348Pb7KZz2UL78MKL3Oqv4Zsz/ndX8qN/%2BI5T0S7X4W8b9mmuivQAAAAF0Uk5TAEDm2GYAAACXSURBVBjTXYqLEsIwCARR%2B27zpCFNxP//TSGOTu3OhDs2wGaPM9bD8hKGMDtnDq130GkxDK/BY/tVc6CtXa21Q72ClFKoqUrINBLAzHP9grKpccxFYmqNIcY4j%2BXDiLJBztmUXCRkGgkgIsZbO1kwEjVDKwYmDriSGt6FPHrnp6x1Bd/vzxP9Bj8mFfBH2K8Gtng1AA95bxQhE7o%2B68UQAAAAAElFTkSuQmCC" alt="">
+                <select name="language">
+                    <option value="ita">Italiano</option>
+                    <option value="eng">English</option>
+                    <option value="esp">Espanol</option>
+                </select>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
