@@ -7,8 +7,39 @@
 main{
     width: 70%;
     margin: auto;
+    margin-top: 10rem;
 }
 
 h1,p{
     margin-bottom: 2rem;
 }
+
+nav{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+header{
+    border-bottom: 1px solid grey;
+    position: sticky;
+    top: 0;    
+    width: 100%;
+    background-color: white;
+}
+
+.title{
+    margin-left: 1rem;
+}
+
+a{
+    text-decoration: none;
+    color: grey;
+    margin-left: 1rem;
+    padding-bottom: 0.5rem;
+}
+.active{
+    color: rgb(43, 128, 207);
+    border-bottom: 2px solid rgb(43, 128, 207);
+}
+

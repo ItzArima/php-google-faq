@@ -61,6 +61,16 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+        <h1 class="title">Privacy e Termini</h1>
+        <nav>
+            <a href="#">Introduzione</a>
+            <a href="#">Norme sulla privacy</a>
+            <a href="#">Termini di servizio</a>
+            <a href="#">Tecnologie</a>
+            <a class="active" href="#">Domande Frequenti</a>
+        </nav>
+    </header>
     <main>
         <?php 
             foreach($data as $key => $value){
